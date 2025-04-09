@@ -94,7 +94,12 @@ void main() {
                 child : Container(
                   width: 250,
                   height: 200,
-                  color : const Color.fromARGB(255, 8, 60, 150),
+                  
+                  decoration: BoxDecoration(
+                    color : const Color.fromARGB(255, 8, 60, 150),
+                    border: Border.all(color: Colors.grey, width: 3),
+                  ),
+                  
                   child : Image(
                     image : AssetImage("assets/images/thws_logo.jpeg")
                   )
