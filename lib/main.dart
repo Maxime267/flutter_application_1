@@ -26,7 +26,7 @@ void main() {
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.black, width: 5),
                     borderRadius: BorderRadius.circular(30),
-                    color: Colors.orange,
+                    color: Colors.orange[700],
                   ),
                   child: const Center(
                     child: Text(
@@ -58,7 +58,7 @@ void main() {
               child: Container(
                 width: 100,
                 height: 200,
-                color: Colors.grey,
+                color: Colors.grey[600],
 
                 child: Center(child : Text(
                   "Flutter!", 
